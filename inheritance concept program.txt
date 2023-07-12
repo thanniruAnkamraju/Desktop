@@ -1,0 +1,29 @@
+class Raju{
+    void read(){
+        System.out.println("dancing raju");
+    }
+}
+class Ravi extends Raju{
+    void book(){
+        System.out.println("fighting raju");
+    }
+}
+class Shiva extends Ravi{
+    void demo(){
+        System.out.println("raining ravi");
+    }
+}
+class Swapna extends Shiva{
+    void declare(){
+        System.out.println("smiley swapna");
+    }
+}
+class Bothinheritance{
+    public static void main(String args[]){
+      Swapna s=new Swapna();
+      s.read();
+      s.book();
+      s.demo();
+      s.declare();
+    }
+}
